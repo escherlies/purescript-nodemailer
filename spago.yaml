@@ -1,0 +1,22 @@
+package:
+  dependencies:
+    - aff
+    - effect
+    - foreign
+    - functions
+    - maybe
+    - node-streams
+    - prelude
+    - simple-json
+    - unsafe-coerce
+  name: nodemailer
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+      - effect
+      - node-fs
+workspace:
+  extraPackages: {}
+  packageSet:
+    url: https://raw.githubusercontent.com/purescript/package-sets/psc-0.15.4-20221115/packages.json

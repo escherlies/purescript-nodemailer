@@ -29,6 +29,7 @@ createMessage = do
     , bcc: [ "BCCRecipient <bccrecipient@example.com>"]
     , subject: "Test Subject"
     , text: "Go to https://github.com"
+    , html: "Go to https://github.com"
     , attachments:
         [ FileFromString { filename: "test.txt", content: "TEST" }
         , FileFromPath { filename: "image1.png", path: "./test/dummy.png" }
